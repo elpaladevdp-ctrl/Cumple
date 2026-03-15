@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@font-face {
+    font-family: "Abel";
+    font-display: swap;
+    font-weight: 100 800;
+    src: url("/Fonts/Abel.woff2");
+}
+@font-face {
+    font-family: "Inter";
+    font-display: swap;
+    font-weight: 100 800;
+    src: url("/Fonts/Inter.woff2");
+}
+
+@theme inline {
+    --font-inter: 'Inter';
+    --font-abel: 'Abel';
+}
